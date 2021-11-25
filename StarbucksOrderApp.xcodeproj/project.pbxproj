@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0111BD885FDE44E5835B95F1 /* Pods_StarbucksOrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F2D529E694DDFE0A625F24 /* Pods_StarbucksOrderApp.framework */; };
+		6E0A3B63273108E4007B09E2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E0A3B62273108E4007B09E2 /* GoogleService-Info.plist */; };
+		6E0A3B6527310982007B09E2 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0A3B6427310982007B09E2 /* PayViewController.swift */; };
+		6E2EED4227395CDA009BD223 /* CoffeeListInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E2EED4127395CDA009BD223 /* CoffeeListInformation.swift */; };
+		6EBC267C272A8C9F003653FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC267B272A8C9F003653FD /* AppDelegate.swift */; };
+		6EBC267E272A8C9F003653FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC267D272A8C9F003653FD /* SceneDelegate.swift */; };
+		6EBC2683272A8C9F003653FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC2681272A8C9F003653FD /* Main.storyboard */; };
+		6EBC2685272A8CA0003653FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC2684272A8CA0003653FD /* Assets.xcassets */; };
+		6EBC2688272A8CA0003653FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EBC2686272A8CA0003653FD /* LaunchScreen.storyboard */; };
+		6EBC2690272A8CC8003653FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC268F272A8CC8003653FD /* HomeViewController.swift */; };
+		6EBC2694272A9610003653FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC2693272A9610003653FD /* LoginViewController.swift */; };
+		6EBC2696272A983B003653FD /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC2695272A983B003653FD /* EventViewController.swift */; };
+		6EBC269B272A9B2A003653FD /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC269A272A9B2A003653FD /* SignViewController.swift */; };
+		6EBC26A1272F8618003653FD /* DetailOrederViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC26A0272F8618003653FD /* DetailOrederViewController.swift */; };
+		6EBC26A4273022EE003653FD /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBC26A3273022EE003653FD /* OrderModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AAE6DFCB9E56AB2B62B619F /* Pods-StarbucksOrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarbucksOrderApp.debug.xcconfig"; path = "Target Support Files/Pods-StarbucksOrderApp/Pods-StarbucksOrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0A3B62273108E4007B09E2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E0A3B6427310982007B09E2 /* PayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		6E2EED4127395CDA009BD223 /* CoffeeListInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeListInformation.swift; sourceTree = "<group>"; };
+		6EBC2678272A8C9F003653FD /* StarbucksOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarbucksOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EBC267B272A8C9F003653FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EBC267D272A8C9F003653FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6EBC2682272A8C9F003653FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EBC2684272A8CA0003653FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EBC2687272A8CA0003653FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EBC2689272A8CA0003653FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EBC268F272A8CC8003653FD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6EBC2693272A9610003653FD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6EBC2695272A983B003653FD /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		6EBC269A272A9B2A003653FD /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		6EBC26A0272F8618003653FD /* DetailOrederViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOrederViewController.swift; sourceTree = "<group>"; };
+		6EBC26A3273022EE003653FD /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		B2F2D529E694DDFE0A625F24 /* Pods_StarbucksOrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarbucksOrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E962C58C0419EA26EB2E0CA5 /* Pods-StarbucksOrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarbucksOrderApp.release.xcconfig"; path = "Target Support Files/Pods-StarbucksOrderApp/Pods-StarbucksOrderApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EBC2675272A8C9F003653FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0111BD885FDE44E5835B95F1 /* Pods_StarbucksOrderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2EED4027395CBC009BD223 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EED4127395CDA009BD223 /* CoffeeListInformation.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		6EBC266F272A8C9F003653FD = {
+			isa = PBXGroup;
+			children = (
+				6EBC267A272A8C9F003653FD /* StarbucksOrderApp */,
+				6EBC2679272A8C9F003653FD /* Products */,
+				F4CF81D39B5F96ABDA8392D0 /* Pods */,
+				F45DB01930204A24A18E1954 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6EBC2679272A8C9F003653FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC2678272A8C9F003653FD /* StarbucksOrderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBC267A272A8C9F003653FD /* StarbucksOrderApp */ = {
+			isa = PBXGroup;
+			children = (
+				6E2EED4027395CBC009BD223 /* Singleton */,
+				6EBC26A2273022D7003653FD /* Model */,
+				6EBC2699272A98AB003653FD /* App */,
+				6EBC2698272A9897003653FD /* View */,
+				6EBC2697272A985B003653FD /* ViewController */,
+				6EBC2684272A8CA0003653FD /* Assets.xcassets */,
+				6EBC2689272A8CA0003653FD /* Info.plist */,
+				6E0A3B62273108E4007B09E2 /* GoogleService-Info.plist */,
+			);
+			path = StarbucksOrderApp;
+			sourceTree = "<group>";
+		};
+		6EBC2697272A985B003653FD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC2695272A983B003653FD /* EventViewController.swift */,
+				6EBC2693272A9610003653FD /* LoginViewController.swift */,
+				6EBC269A272A9B2A003653FD /* SignViewController.swift */,
+				6EBC268F272A8CC8003653FD /* HomeViewController.swift */,
+				6EBC26A0272F8618003653FD /* DetailOrederViewController.swift */,
+				6E0A3B6427310982007B09E2 /* PayViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6EBC2698272A9897003653FD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC2681272A8C9F003653FD /* Main.storyboard */,
+				6EBC2686272A8CA0003653FD /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6EBC2699272A98AB003653FD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC267B272A8C9F003653FD /* AppDelegate.swift */,
+				6EBC267D272A8C9F003653FD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6EBC26A2273022D7003653FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EBC26A3273022EE003653FD /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F45DB01930204A24A18E1954 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2D529E694DDFE0A625F24 /* Pods_StarbucksOrderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4CF81D39B5F96ABDA8392D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AAE6DFCB9E56AB2B62B619F /* Pods-StarbucksOrderApp.debug.xcconfig */,
+				E962C58C0419EA26EB2E0CA5 /* Pods-StarbucksOrderApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EBC2677272A8C9F003653FD /* StarbucksOrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EBC268C272A8CA0003653FD /* Build configuration list for PBXNativeTarget "StarbucksOrderApp" */;
+			buildPhases = (
+				D821FF3F19BEFC3783401D84 /* [CP] Check Pods Manifest.lock */,
+				6EBC2674272A8C9F003653FD /* Sources */,
+				6EBC2675272A8C9F003653FD /* Frameworks */,
+				6EBC2676272A8C9F003653FD /* Resources */,
+				F49D74A1789D0CAA4EC62991 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarbucksOrderApp;
+			productName = StarbucksOrderApp;
+			productReference = 6EBC2678272A8C9F003653FD /* StarbucksOrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EBC2670272A8C9F003653FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					6EBC2677272A8C9F003653FD = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 6EBC2673272A8C9F003653FD /* Build configuration list for PBXProject "StarbucksOrderApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EBC266F272A8C9F003653FD;
+			productRefGroup = 6EBC2679272A8C9F003653FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EBC2677272A8C9F003653FD /* StarbucksOrderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EBC2676272A8C9F003653FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC2688272A8CA0003653FD /* LaunchScreen.storyboard in Resources */,
+				6E0A3B63273108E4007B09E2 /* GoogleService-Info.plist in Resources */,
+				6EBC2685272A8CA0003653FD /* Assets.xcassets in Resources */,
+				6EBC2683272A8C9F003653FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D821FF3F19BEFC3783401D84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarbucksOrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F49D74A1789D0CAA4EC62991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarbucksOrderApp/Pods-StarbucksOrderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarbucksOrderApp/Pods-StarbucksOrderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarbucksOrderApp/Pods-StarbucksOrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EBC2674272A8C9F003653FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EBC26A4273022EE003653FD /* OrderModel.swift in Sources */,
+				6EBC2696272A983B003653FD /* EventViewController.swift in Sources */,
+				6EBC269B272A9B2A003653FD /* SignViewController.swift in Sources */,
+				6EBC2694272A9610003653FD /* LoginViewController.swift in Sources */,
+				6E0A3B6527310982007B09E2 /* PayViewController.swift in Sources */,
+				6EBC267C272A8C9F003653FD /* AppDelegate.swift in Sources */,
+				6E2EED4227395CDA009BD223 /* CoffeeListInformation.swift in Sources */,
+				6EBC26A1272F8618003653FD /* DetailOrederViewController.swift in Sources */,
+				6EBC267E272A8C9F003653FD /* SceneDelegate.swift in Sources */,
+				6EBC2690272A8CC8003653FD /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6EBC2681272A8C9F003653FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC2682272A8C9F003653FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EBC2686272A8CA0003653FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EBC2687272A8CA0003653FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EBC268A272A8CA0003653FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6EBC268B272A8CA0003653FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EBC268D272A8CA0003653FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AAE6DFCB9E56AB2B62B619F /* Pods-StarbucksOrderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DNG6T94YQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksOrderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thduds.StarbucksOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6EBC268E272A8CA0003653FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E962C58C0419EA26EB2E0CA5 /* Pods-StarbucksOrderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DNG6T94YQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarbucksOrderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thduds.StarbucksOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EBC2673272A8C9F003653FD /* Build configuration list for PBXProject "StarbucksOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC268A272A8CA0003653FD /* Debug */,
+				6EBC268B272A8CA0003653FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EBC268C272A8CA0003653FD /* Build configuration list for PBXNativeTarget "StarbucksOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EBC268D272A8CA0003653FD /* Debug */,
+				6EBC268E272A8CA0003653FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EBC2670272A8C9F003653FD /* Project object */;
+}
